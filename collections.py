@@ -47,7 +47,8 @@
 ##for fruit in fruits:
 # Other methods available for lists:
     # Append: To add an element to the end of a list, use the ".append" operative
-##fruits.append("pear")
+##fruits.append("pear")     # When more than one item is appended, it leads to the creation of a sub-list within the existing list.
+    # Extend: works similar to append but does not add  sub-list to the existing list
     # Remove: This removes an element from a list
 ##fruits.remove("apple")
     # Insert: To insert a value at a given index
@@ -76,7 +77,7 @@
     # The "index" function cannot be used for set because they are unordered and unsubscriptible
     # The "add" and "remove" and "clear" methods can be used much in the ssame way as for lists. 
     # Pop: Removes whatever element is first, in a random manner
-##fruits.pop()
+##fruits.pop()      # When an index is specified, the item corresponding to the index is removed.
     # Sets work well when dealing with constants.
 
 
@@ -140,3 +141,5 @@ for key, value in capitals.items():
     print(f"{key}: {value}")
 
 ##print(capitals)
+    
+    
